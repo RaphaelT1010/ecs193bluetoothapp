@@ -28,7 +28,7 @@ So we must:
 - Enable bluetooth permission in the app properly. Hope it's not 1. reason
 
 
-
+# Some auto generated information from creating the project
 
 ### For Android
 
