@@ -1,6 +1,6 @@
 # Getting Started
 
-We are doing React Native Expo and not React Native CLI. Make sure when you do your research, it's for React Native Expo.
+We are using React Native Expo and not React Native CLI. Make sure when you do your research, it's for React Native Expo.
 
 ## Initial Set Up
 1. Make an empty folder.
