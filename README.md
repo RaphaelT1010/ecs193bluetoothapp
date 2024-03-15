@@ -11,6 +11,7 @@
 - Make sure you have Android Studio or an Android connected via USB to your computer. It should detect either. In my experience, it prioritzes the device
 - It's annoying that GitHub doesn't let you upload .expo (created calling npm install metro), or the node modules. As a result, you will be doing console commands in order to add onto the project/these locations which are hard to revert. Be careful with this as sometimes doing things like --force fix audit or ./gradlew clean will revert many steps, so try to do commitments like this conservatively.
 - You can safely delete App.tsx and just have the App.js
+- I don't have experience using yarn like below. Could be something to look into, but npm (at the minimum) can allow us to run the app when the Metro server is running and can run on Android Studio.
 
 
 ### For Android
