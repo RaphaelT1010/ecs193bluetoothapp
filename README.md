@@ -25,7 +25,7 @@ There are two possible reasons for this:
 2. Bluetooth permissions are not enabled properly (this is what I feel is happening. There is a node module relating to Ble Permissions to request a device to turn on Bluetooth permissions for this application)
 
 So we must:
-- Enable bluetooth permission in the app properly. Hope it's not 1. reason
+- Enable bluetooth permissions for the app properly. Hope it's not 1. reason
 
 
 # Some auto generated information from creating the project
