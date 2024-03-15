@@ -1,5 +1,7 @@
 # Getting Started
 
+We are doing React Native Expo and not React Native CLI. Make sure when you do your research, it's for React Native Expo.
+
 ## What Raph Did
 1. Make an empty folder.
 2. npx create-expo-app [folderName]
@@ -15,6 +17,17 @@
 - You can safely delete App.tsx and just have the App.js
 - I don't have experience using yarn like below. Could be something to look into, but npm (at the minimum) can allow us to run the app when the Metro server is running and can run on Android Studio.
 - I have not delved into ios at all. It will be much more complex running it on the device as well according to research, and I don't have a mac to debug/test this.
+
+## To-dos after 3/14
+Errors are thrown when pressing connect to device and arrow keys in the present 3/14 build. The errors are Connection error: [TypeError: Cannot read property 'connect' of null] and Error sending command: [TypeError: Cannot read property 'write' of null] respecctively.
+There are two possible reasons for this:
+1. BleManager is not initialzed properly (this is the worser outcome, as you must delve into dependency logic, the build scripts, version mistmatches from my understanding)
+2. Bluetooth permissions are not enabled properly (this is what I feel is happening. There is a node module relating to Ble Permissions to request a device to turn on Bluetooth permissions for this application)
+
+So we must:
+- Enable bluetooth permission in the app properly. Hope it's not 1. reason
+
+
 
 
 ### For Android
