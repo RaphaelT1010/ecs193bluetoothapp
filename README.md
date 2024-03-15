@@ -7,7 +7,7 @@
 4. Copy all GitHub files into that folder as well
 5. npx expo start. npm start alternatively. Here, there may be errors thrown. This is fine. Refer to below
 
-## Tips
+## Important Tips
 - If you get something related to metro, I did npm install metro
 - If you get something related to react-native-ble-manager, let me know and I can send you the node module. For some reason, doing npm i --save react-native-ble-manager (the conventional way) can sometimes break the application, throwing errors related to jdk, appdebugwithjavac, etc. and make you lose many steps. Paste this into the node modules folder
 - Make sure you have Android Studio or an Android connected via USB to your computer. It should detect either. In my experience, it prioritzes the device
