@@ -2,14 +2,14 @@
 
 We are doing React Native Expo and not React Native CLI. Make sure when you do your research, it's for React Native Expo.
 
-## What Raph Did
+## Initial Set Up
 1. Make an empty folder.
 2. npx create-expo-app [folderName]
 3. cd [folderName]
 4. Copy all GitHub files into that folder as well
 5. npx expo start. npm start alternatively. Here, there may be errors thrown. This is fine. Refer to below
 
-## Important Tips
+## Important Tips for Set Up
 - If you get something related to metro, npm install metro should handle it.
 - If you get something related to react-native-ble-manager, let me know and I can send you the node module. For some reason, doing npm i --save react-native-ble-manager (the conventional way) can sometimes break the application, throwing errors related to jdk, :app:compileDebugJavaWithJavac, etc. and make you lose many steps. Paste this into the node modules folder
 - Make sure you have Android Studio or an Android connected via USB to your computer. It should detect either. In my experience, it prioritizes the device. You must enable USB debugging with the Android, which you need to enable developer mode on the Android. There are tutorials for this online and is easy.
