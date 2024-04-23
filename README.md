@@ -15,7 +15,7 @@ Follow the steps carefully - I recommend creating a whole new React Expo project
 ## Setting up the Android File and Gradle
 1. Type into the same terminal and directory as before: "npx npm install eas-cli"
 2. Then type: "npx expo prebuild" which should make an "android" file in the project directory.
-3. Then type: "npx expo install-dev-client"
+3. Then type: "npx expo install expo-dev-client"
 4. Type "code ." in the terminal to open up visual studio code or use whichever IDE you use for react expo
 5. Once in the IDE, navigate to the "android" file if it is there. Open to "android->app->src->gradle.properties"
 6. At the bottom of "gradle.properties", write "org.gradle.java.home=C:/Program Files/Java/jdk-17.0.9" at the bottom of the file. The jdk path is dependent on where your path is located, so it will vary.
