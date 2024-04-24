@@ -9,7 +9,7 @@ Follow the steps carefully - I recommend creating a whole new React Expo project
 3. Do "cd RoboticDummyApp". This will be referred to as the "RoboticDummyApp/RoboticDummyApp" directory
 4. Once you are in that directory, you will need to type a series of more commands starting with: "npx expo install react-native-ble-plx"
 5. Then type: "npx expo install expo-device react-native-base64"
-6. Just to make things work with the source code, type: "Npx expo install @shopify/react-native-skia"
+6. Just to make things work with the source code, type: "npx expo install @shopify/react-native-skia"
 7. Once this is done, you will need to do a few more setups for the Android File and Gradle
 
 ## Setting up the Android File and Gradle
